@@ -1,0 +1,13 @@
+{
+    "name": "Facebook不要再給我大字了！",
+    "description": "有些人簡短的貼文Facebook會把它變成大字，看得很不習慣嗎？裝這款外掛讓字體大小變正常吧！",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["*://*.facebook.com/*"],
+        "css": ["normal_font.css"]
+    }],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
