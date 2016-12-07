@@ -3,28 +3,40 @@
 }
 
 #contentArea div {
-	font-size: 15px !important;
+    font-size: 15px !important;
 }
 
 textarea {
-	font-size: 15px !important;
+    font-size: 15px !important;
 }
 
 textarea:focus {
-	font-size: 15px !important;
-}
-
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     font-size: 15px !important;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   font-size: 15px !important;
-   opacity: 1 !important;
+
+[data-editor] {
+    font-size: 15px !important;
+    line-height: 18px !important;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   font-size: 15px !important;
-   opacity: 1 !important;
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    font-size: 15px !important;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   font-size: 15px !important;
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-size: 15px !important;
+    opacity: 1 !important;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size: 15px !important;
+    opacity: 1 !important;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 15px !important;
 }
